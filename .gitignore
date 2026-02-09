@@ -21,6 +21,9 @@ env/
 .ipynb_checkpoints/
 *.ipynb_metadata/
 
+# Scratch workspace (for running notebooks without dirtying git)
+scratch/
+
 # IDE
 .idea/
 .vscode/
