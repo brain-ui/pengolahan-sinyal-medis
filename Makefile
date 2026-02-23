@@ -13,6 +13,9 @@ sync: ## Install all dependencies
 data: ## Generate synthetic data
 	uv run python scripts/generate_synthetic_data.py
 
+data-ecg: ## Generate ECG assignment data (11 groups, prints answer key)
+	uv run python scripts/generate_ecg_assignment_data.py
+
 # --- Demos (copies to scratch/ so originals stay clean) ---
 #
 # Workflow:
